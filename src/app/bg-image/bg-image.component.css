@@ -1,0 +1,8 @@
+.layout-container{
+    background-image: url("../../assets/images/bgimage.jpg");
+    background-size: cover;
+    background-size: 100% ;  
+    background-position: center;
+    height: 100vh;
+
+  }

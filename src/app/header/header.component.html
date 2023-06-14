@@ -1,21 +1,22 @@
-<mat-toolbar color="primary">
-  <span>
-    Shopify
-  </span>
+<nav class="navbar navbar-expand-lg navbar-dark "style="background-color: #000000;">
+  <div class="container-fluid">
+    <a class="navbar-brand">Shopify</a>
 
-  <span class="space-buttons"></span>
   <button *ngIf="! isLoggedIn()" routerLink="/login" mat-raised-button color="primary">
     Login
   </button>
   <button *ngIf="isLoggedIn()" (click)="logout()" mat-raised-button color="warn">
     Logout
   </button>
-</mat-toolbar>
+  </div>
+</nav>
 
-<mat-toolbar color="primary" *ngIf="isLoggedIn()">
-  <button mat-raised-button color="primary" routerLink="/">Home</button>
+<nav class="navbar navbar-expand-lg navbar-dark " *ngIf="isLoggedIn()"style="background-color: #000000;">
+
+<!-- <mat-toolbar color="dark" *ngIf="isLoggedIn()"> -->
+  <button type="button" class="btn btn-dark" routerLink="/">Home</button>
  
-  <button *ngIf="isAdmin()" mat-raised-button color="primary" routerLink="/addNewProduct">Add New Product</button>
-  <button *ngIf="isAdmin()" mat-raised-button color="primary" routerLink="/showProductDetails">Show Product Details</button>
-  <button *ngIf="isAdmin()" mat-raised-button color="primary" routerLink="/orderInformation">Order Information</button>
-</mat-toolbar>
+  <button type="button" class="btn btn-dark" *ngIf="isAdmin()"  routerLink="/addNewProduct">Add New Product</button>
+  <button type="button" class="btn btn-dark"*ngIf="isAdmin()"  routerLink="/showProductDetails">Show Product Details</button>
+  <button type="button" class="btn btn-dark"*ngIf="isAdmin()" routerLink="/orderInformation">Order Information</button>
+</nav>
