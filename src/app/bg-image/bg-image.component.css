@@ -1,8 +1,9 @@
 .layout-container{
-    background-image: url("../../assets/images/bgimage.jpg");
+    background-image: url("../../assets/images/lbg.jpg");
     background-size: cover;
-    background-size: 100% ;  
+    min-width: 900px;
+    min-height: 900px;
+    background-attachment: fixed;  
     background-position: center;
-    height: 100vh;
 
   }

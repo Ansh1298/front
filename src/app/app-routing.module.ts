@@ -17,7 +17,6 @@ import { RegisterComponent } from "./register/register.component";
 import { ShowProductDetailsComponent } from "./show-product-details/show-product-details.component";
 import { UserComponent } from "./user/user.component";
 import { AuthGuard } from "./_auth/auth.guard";
-import { BgImageComponent } from "./bg-image/bg-image.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
