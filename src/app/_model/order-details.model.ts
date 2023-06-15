@@ -4,7 +4,7 @@ export interface OrderDetails {
     fullName: string;
     fullAddress: string;
     contactNumber: string;
-    alternateContactNumber: string;
+    emailId: string;
     transactionId: string,
     orderProductQuantityList: OrderQuantity[];
 }

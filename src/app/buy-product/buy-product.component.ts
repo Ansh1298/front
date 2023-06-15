@@ -21,7 +21,7 @@ export class BuyProductComponent implements OnInit {
     fullName: '',
     fullAddress: '',
     contactNumber: '',
-    alternateContactNumber: '',
+    emailId: '',
     transactionId: '',
     orderProductQuantityList: []
   }
@@ -120,7 +120,7 @@ export class BuyProductComponent implements OnInit {
       key: response.key,
       amount: response.amount,
       currency: response.currency,
-      name: 'Shopify payment',
+      name: 'FF payment',
       description: 'Payment of online shopping',
       image: 'https://cdn.pixabay.com/photo/2023/01/22/13/46/swans-7736415_640.jpg',
       handler: (response: any) => {
@@ -132,8 +132,8 @@ export class BuyProductComponent implements OnInit {
        
       },
       prefill : {
-        name:'LPY',
-        email: 'LPY@GMAIL.COM',
+        name:'FashionFinesse',
+        email: 'FF@GMAIL.COM',
         contact: '90909090'
       },
       notes: {

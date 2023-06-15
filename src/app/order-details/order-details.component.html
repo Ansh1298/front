@@ -35,7 +35,11 @@
         <th mat-header-cell *matHeaderCellDef> Contact No. </th>
         <td mat-cell *matCellDef="let element"> {{element.orderContactNumber}} </td>
       </ng-container>
-
+<!-- Email Id. Column -->
+      <ng-container matColumnDef="Email Id">
+         <th mat-header-cell *matHeaderCellDef> Email Id. </th>
+        <td mat-cell *matCellDef="let element"> {{element.orderEmailId}} </td>
+        </ng-container>
        <!-- orderStatus Column -->
      <ng-container matColumnDef="Status">
         <th mat-header-cell *matHeaderCellDef> Status </th>
