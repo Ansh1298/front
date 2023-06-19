@@ -1,3 +1,5 @@
+/** Authors: Anshuman singh and Aniket Roy*/
+/** This typescript file is used for jwt authentication */
 import { Injectable } from '@angular/core';
 import {
   CanActivate,

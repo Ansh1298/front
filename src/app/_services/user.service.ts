@@ -1,3 +1,7 @@
+/**Author:Anshuman Singh */
+/** This service is used to communicate with the backend for the authentication of admin and user
+ * and other functionality
+ */
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { UserAuthService } from './user-auth.service';

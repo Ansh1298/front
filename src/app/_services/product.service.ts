@@ -1,3 +1,7 @@
+/**Author:Anshuman Singh */
+/** This service is used to communicate with the backend for the creating transactions and 
+ * other product related functionality.
+ */
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';

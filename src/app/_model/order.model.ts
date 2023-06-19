@@ -1,3 +1,5 @@
+/** Author: Anshuman singh*/
+/**This model is used for the order details provided by the user */
 import { Product } from "./product.model";
 
 export interface MyOrderDetails {

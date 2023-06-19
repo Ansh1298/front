@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This service is used to store the data of various inputs and the jwt token into the local storage */
 import { Injectable } from '@angular/core';
 
 @Injectable({

@@ -1,3 +1,7 @@
+/**Author:Anshuman Singh */
+/**This is the type script file of this component where I have implemented various functions used in 
+ * the html file.
+ */
 import { HttpErrorResponse } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";

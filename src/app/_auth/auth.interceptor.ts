@@ -1,3 +1,7 @@
+/** Authors: Anshuman singh and Aniket Roy*/
+/**In this file we have implemented the interceptor which fetches the jwt token and attaches it
+ * to various request that will be sent to the backend.
+ */
 import {
     HttpErrorResponse,
   HttpEvent,

@@ -1,3 +1,5 @@
+/** Author: Anshuman singh*/
+/**this model is for order  details that have to be given  */
 import { OrderQuantity } from "./order-quantity.model";
 
 export interface OrderDetails {
