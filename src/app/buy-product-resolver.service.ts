@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This is a resolver which readies the data before a component is rendered */
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';

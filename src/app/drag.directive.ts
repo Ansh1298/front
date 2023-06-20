@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This directive is used for adding the drag and drop functionality to our app */
 import { Directive, HostBinding, HostListener, Output } from "@angular/core";
 import { DomSanitizer } from "@angular/platform-browser";
 import { EventEmitter } from "@angular/core";

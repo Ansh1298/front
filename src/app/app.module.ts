@@ -1,3 +1,7 @@
+/**Author:Anshuman Singh */
+/**This ts file contains all the modules required by various components in our app and
+ * authguard is also added here.
+ */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This service is used for processing the images and displaying them */
 import { Injectable } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { FileHandle } from './_model/file-handle.model';

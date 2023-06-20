@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This is app root component file */
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Shopify';
+  title = 'Fashion Finesse';
 }
