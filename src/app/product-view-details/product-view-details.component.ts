@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**In this file various services are injected and functions are defined which are used in the html file */
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from '../_model/product.model';

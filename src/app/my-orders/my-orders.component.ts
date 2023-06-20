@@ -1,3 +1,5 @@
+/**Author:Anshuman Singh */
+/**This ts file  injects the product service into my-orders and implements functions used in html file*/
 import { Component, OnInit } from '@angular/core';
 import { MyOrderDetails } from '../_model/order.model';
 import { ProductService } from '../_services/product.service';

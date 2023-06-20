@@ -1,3 +1,7 @@
+/** Author:Anshuman Singh */
+/** This file injects the product service to this component and implements an arrary for the details
+ * and a function.
+ */
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../_services/product.service';
 
