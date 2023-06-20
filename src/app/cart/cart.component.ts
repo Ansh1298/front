@@ -1,3 +1,8 @@
+/**Author:Aniket Roy Choudhury */
+/**This is the type script file of this component where I have implemented adding various products in cart
+ * used in 
+ * the html file.
+ */
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../_services/product.service';

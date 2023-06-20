@@ -1,3 +1,8 @@
+/**Author:Aniket Roy Choudhury */
+/**This is the type script file of this component where I have implemented adding various navigational fetures
+ * used in 
+ * the html file.
+ */
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserAuthService } from '../_services/user-auth.service';

@@ -1,3 +1,8 @@
+/**Author:Aniket Roy Choudhury */
+/**This is the type script file of this component where I have implemented various functions of puchasing
+ * used in 
+ * the html file.
+ */
 import { ChangeDetectorRef, Component, Injector, NgZone, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';

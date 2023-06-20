@@ -1,3 +1,9 @@
+/**Author:Aniket Roy Choudhury */
+/**This is the type script file of this component where I have implemented adding 
+ * various interface fetures
+ * used in 
+ * the html file.
+ */
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
