@@ -1,3 +1,5 @@
+/**Author:Aniket Roy Choudhury */
+/**In this file various services are injected and functions are defined which are used in the html file */
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RegisterComponent } from './register.component';

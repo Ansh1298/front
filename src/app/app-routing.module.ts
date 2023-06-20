@@ -1,3 +1,6 @@
+/**Author:Aniket Roy Choudhury */
+/**In this file various services are The app routing details component efficiently directs users to specific pages and sections, 
+ * ensuring smooth navigation and seamless transitions within */
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { AddNewProductComponent } from "./add-new-product/add-new-product.component";

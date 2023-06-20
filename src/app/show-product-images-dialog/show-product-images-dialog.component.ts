@@ -1,3 +1,4 @@
+/**Author:Aniket Roy Choudhury */
 import { Component, Inject, OnInit } from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { FileHandle } from '../_model/file-handle.model';
